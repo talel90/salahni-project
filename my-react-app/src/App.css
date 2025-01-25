@@ -4,7 +4,10 @@
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     color: #333;
+   
+    
     scroll-behavior: smooth;
+    font-size: 2vw;
   }
   
   .app-container {
@@ -35,6 +38,10 @@
   .nav {
     display: flex;
     gap: 15px;
+    display: flex;
+    justify-content: space-between; /* Répartit l'espace entre les éléments */
+    align-items: center; /* Aligne verticalement */
+    padding: 1rem;
   }
   
   .nav a {
@@ -200,5 +207,17 @@
   
   .footer a:hover {
     color: #fff;
+  }
+  @media (orientation: portrait) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    .container {
+      flex-direction: row;
+    }
+    
   }
   

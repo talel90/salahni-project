@@ -10,16 +10,15 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <div className="logo">Angi</div>
+        <div className="logo">salahni</div>
         <nav className="nav">
           <a href="#">Interior</a>
           <a href="#">Exterior</a>
           <a href="#">Lawn & Garden</a>
           <a href="#">More</a>
-          <a href="#">Articles & Advice</a>
         </nav>
         <div className="auth-buttons">
-          <button>Join as a Pro</button>
+          
           <button>Log In</button>
           <button className="sign-up">Sign Up</button>
         </div>
